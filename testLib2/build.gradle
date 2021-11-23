@@ -27,9 +27,9 @@ dependencies {
 
 apply from: "${rootDir.path}/publish.gradle"
 publish {
-    name = "TestLib2"
+    name = "JitpackTestLib2"
     groupId = GROUP_ID
-    artifactId = "TestLib2"
+    artifactId = "JitpackTestLib2"
     version = VERSION
     website = WEBSITE
 }

@@ -22,6 +22,8 @@ apply plugin: "com.jfrog.bintray"
 
 extensions.create('publish', PublishExtension)
 
+group=project['publish']['groupId']
+
 afterEvaluate {
     def ext = project['publish'] as PublishExtension
     loadBintray(ext)
