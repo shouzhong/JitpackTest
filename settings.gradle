@@ -1,2 +1,4 @@
+include ':testLib2'
+include ':testLib1'
 include ':app'
 rootProject.name = "JitpackTest"
